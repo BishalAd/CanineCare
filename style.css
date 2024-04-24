@@ -9,11 +9,12 @@ body{
 }
 
 nav{
-    height: 100px;
+    height: 90px;
     /* background-color: lightblue; */
     display: flex;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -26,12 +27,18 @@ nav{
     width: 800px;
 }
 
-.Main-Nav ul{
+.horizontal-nav{
     display: flex;
     gap: 1rem;
     list-style: none;
     justify-content: space-around;
 }
+/* .Main-Nav ul{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    justify-content: space-around;
+} */
 
 .Main-Nav ul li a{
    text-align: center;
@@ -45,9 +52,11 @@ nav{
 
 }
 .login-Cart{
-    margin: 0px 25px 0px 0px;
-    gap: 2rem;
+    /* margin: 0px 0px 0px 0px; */
+    gap: 1rem;
     display: flex;
+    align-items: center;
+    /* width: 14%; */
 }
 
 .login-Cart a{
@@ -106,6 +115,56 @@ nav{
     font-weight: 800;
 }
 
-@media screen and (max-width: 400px){
-    
+.sidebar{
+    position:fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.682);
+    backdrop-filter: blur(10);
+    display: none;
+    box-shadow: -10px 0px 10px rgba(0, 0, 0, 0.2);
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    list-style: none;
+    transition: all .4s ease-in-out;
+}
+
+.sidebar li{
+    margin: 20px 0px 0px 50px;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.Menu-btn{
+    /* margin: auto; */
+    display: none;
+
+}
+
+
+
+@media screen and (max-width: 900px){
+    .horizontal-nav{
+        display: none;
+    }
+    .Menu-btn{
+        display: block;
+        margin-right: 2rem;
+    }
+    .login-Cart{
+        margin: 0px 50px 0px 50px;
+        width: 500px;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .login-Cart{
+        margin: 0px 0px 0px 0px;
+        gap: 0px;
+    }
 }
