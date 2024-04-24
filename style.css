@@ -41,6 +41,8 @@ nav{
    /* font-size: 1.6vw; */
    font-weight: 600;
    color: black;
+   display: inline-block;
+
 }
 .login-Cart{
     margin: 0px 25px 0px 0px;
@@ -82,13 +84,14 @@ nav{
 
 .content {
     position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 30%;
+    left: 10%;
+    /* transform: translate(-50%, -50%); */
     text-align: left;
     z-index: 1;
     color: white;
     width: 80%;
+    align-items: center;
 }
 
 
@@ -98,7 +101,11 @@ nav{
 }
 
 .content h1 {
-    font-size: 5rem;
+    font-size: 50px;
     margin-bottom: 10px;
     font-weight: 800;
+}
+
+@media screen and (max-width: 400px){
+    
 }
