@@ -144,8 +144,70 @@ nav{
     display: none;
 
 }
+/* aafaiii try garna lagako */
+.other-section{
+    height: auto;
+    text-align: center;
+    display: flex;
+}
 
+.adopt-section{
+    height: auto;
+    margin: 15px;
+   padding-top: 30px;
+    text-align: center;
+    border: 2px solid black;
+}
+.adopt-section h1{
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    text-align: center;
+    height: 55px;
+    background-color: beige;
+}
 
+.adopt-section a{
+    text-decoration: none;
+    color: black;
+}
+
+.Dog-img{
+    margin-top: -5px;
+    width: 40%;
+    justify-content: center;
+    float: left;
+    background-color: rgb(67, 83, 83);
+}
+
+.Dog-img img{
+    height: 250px;
+    position: absolute;
+}
+
+.hover-image{
+    opacity: 0;
+}
+.Content{
+    width: 55%;
+    box-sizing: border-box;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    align-content: center;
+    height: 230px;
+    margin-top: 20px;
+    float: right;
+    font-size: 2.2rem;
+    
+}
+.adopt-section:hover .original-image {
+    opacity: 0;
+}
+
+.adopt-section:hover .hover-image {
+    opacity: 1;
+}
 
 @media screen and (max-width: 900px){
     .horizontal-nav{
@@ -164,6 +226,7 @@ nav{
         font-size: 35px;
     }
 }
+
 
 @media screen and (max-width: 550px){
     .login-Cart{
