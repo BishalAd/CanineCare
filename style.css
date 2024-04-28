@@ -6,7 +6,6 @@
 body{
     min-height: 100vh;
     font-family:Roboto, sans-serif;
-    display: flex;
 }
 
 /*nav Section*/
@@ -163,6 +162,7 @@ nav{
    padding-top: 30px;
     text-align: center;
     border: 2px solid black;
+    width: 100%;
 }
 .adopt-section h1{
     justify-content: center;
@@ -183,7 +183,6 @@ nav{
     width: 40%;
     justify-content: center;
     float: left;
-    background-color: rgb(67, 83, 83);
 }
 
 .Dog-img img{
@@ -204,7 +203,8 @@ nav{
     height: 230px;
     margin-top: 20px;
     float: right;
-    font-size: 2.2rem;
+    font-size: 2.1rem;
+    font-weight: 600;
     
 }
 .adopt-section:hover .original-image {
@@ -291,8 +291,131 @@ nav{
     font-size: 25px;
 }
 
+/* Tranning Section  */
 
+.training-box {
+    height: auto;
+    text-align: center;
+    display: flex;
+}
 
+.training-section {
+    height: auto;
+    margin: 15px;
+    padding-top: 30px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.training-section h1 {
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    text-align: center;
+    height: 55px;
+    background-color: beige;
+}
+
+.training-section a {
+    text-decoration: none;
+    color: black;
+}
+
+.Training-section-Content {
+    width: 55%;
+    box-sizing: border-box;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    align-content: center;
+    height: 230px;
+    margin-top: 20px;
+    float: left;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 25px;
+}
+
+.Training-Video {
+    width: 40%;
+    justify-content: center;
+    float: right;
+    position: relative;
+    height: 320px;
+    overflow: hidden;
+}
+
+.Training-Video video {
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
+    position: absolute;
+    /* top: 0; */
+    left: 0;
+    border: 3px solid black;
+    border-radius: 40px;
+    margin: 5px;
+}
+
+/* Dog care/health */
+/*same class name as adopt*/
+
+.running-video{
+    height: 280px;
+    padding: 30px;
+    /* position: absolute; */
+}
+
+/* footer  */
+
+.site-footer {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    height: 100%;
+    width: 80%;
+    /* background-color: #fc0000; */
+    justify-content: space-between;
+}
+
+.Footer-list{
+    display: inline-block;
+}
+.quick-link{
+    /* background-color: green; */
+    width: 30%;
+    height: 150px;
+    padding-top: 200px;
+    margin: 10%;
+    text-align: justify;
+}
+.quick-link a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.Footer-About-Us-Section{
+    width: 45vb;
+    text-align: justify;
+    height: 150px;
+}
+
+.Footer-About-Us-Section img{
+    height: 250px;
+    width: 250px;
+    margin: 0px 0px -50px 8%;
+}
+
+.site-footer h3 {
+    text-align: center;
+    color: #fff;
+    margin: 10px;
+}
 
 @media screen and (max-width: 900px){
     .horizontal-nav{
@@ -337,5 +460,27 @@ nav{
         font-size: 1.4rem;
         justify-content: center;
         width: 100%;
+    }
+
+    #trending-product h1{
+        font-size: 2rem;
+    }
+
+    .training-section h1{
+        font-size: 2rem;
+    }
+
+    .Training-section-Content {
+        float: none;
+        margin-top: -50px;
+        font-size: 1.3rem;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .Training-Video {
+        width: 100%;
+        margin-top: -50px;
+
     }
 }
