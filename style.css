@@ -6,6 +6,7 @@
 body{
     min-height: 100vh;
     font-family:Roboto, sans-serif;
+    position: relative;
 }
 
 /*nav Section*/
@@ -322,9 +323,8 @@ nav{
 }
 
 .Training-section-Content {
-    width: 55%;
+    width: 45%;
     box-sizing: border-box;
-    padding: 10px;
     color: black;
     text-align: center;
     align-content: center;
@@ -360,14 +360,8 @@ nav{
 /* Dog care/health */
 /*same class name as adopt*/
 
-.running-video{
-    height: 280px;
-    padding: 30px;
-    /* position: absolute; */
-}
-
 /* footer  */
-
+/* 
 .site-footer {
     background-color: #333;
     color: #fff;
@@ -378,7 +372,6 @@ nav{
 .container{
     height: 100%;
     width: 80%;
-    /* background-color: #fc0000; */
     justify-content: space-between;
 }
 
@@ -386,7 +379,6 @@ nav{
     display: inline-block;
 }
 .quick-link{
-    /* background-color: green; */
     width: 30%;
     height: 150px;
     padding-top: 200px;
@@ -415,7 +407,70 @@ nav{
     text-align: center;
     color: #fff;
     margin: 10px;
+} */
+
+
+footer{
+    width: 100%;
+    bottom: 0;
+    /* background: linear-gradient(to right, #00093c, #2d0b00); */
+    background-color: rgb(82, 82, 82);
+    color: #fff;
+    padding: 80px 0 25px;
+    border-top-left-radius: 120px;
+    font-size: 18px;
+    line-height: 20px;
+
 }
+
+.col img{
+    height: 100px;
+    width: 250px;
+}
+
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.col{
+    flex-basis: 30%;
+    padding: 10px;
+
+}
+
+.logo{
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.col h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.emlil{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin-top: 20px;
+}
+
+ul li{
+    list-style: none;
+}
+
 
 @media screen and (max-width: 900px){
     .horizontal-nav{
