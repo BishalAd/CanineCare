@@ -33,6 +33,7 @@ nav{
 }
 
 .horizontal-nav{
+    margin-left: 30%;
     display: flex;
     gap: 1rem;
     list-style: none;
@@ -538,4 +539,10 @@ ul li{
         margin-top: -50px;
 
     }
+    @media screen and (max-width: 500px){
+.logo img{
+    margin: 0;
+    width: 210px;
+}
+
 }
