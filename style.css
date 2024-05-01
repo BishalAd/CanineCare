@@ -33,6 +33,7 @@ nav{
 }
 
 .horizontal-nav{
+    margin-left: 30%;
     display: flex;
     gap: 1rem;
     list-style: none;
