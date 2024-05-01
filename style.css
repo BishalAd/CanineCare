@@ -538,4 +538,10 @@ ul li{
         margin-top: -50px;
 
     }
+    @media screen and (max-width: 500px){
+.logo img{
+    margin: 0;
+    width: 210px;
+}
+
 }
