@@ -358,59 +358,6 @@ nav{
     margin: 5px;
 }
 
-/* Dog care/health */
-/*same class name as adopt*/
-
-/* footer  */
-/* 
-.site-footer {
-    background-color: #333;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-}
-
-.container{
-    height: 100%;
-    width: 80%;
-    justify-content: space-between;
-}
-
-.Footer-list{
-    display: inline-block;
-}
-.quick-link{
-    width: 30%;
-    height: 150px;
-    padding-top: 200px;
-    margin: 10%;
-    text-align: justify;
-}
-.quick-link a{
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
-}
-
-.Footer-About-Us-Section{
-    width: 45vb;
-    text-align: justify;
-    height: 150px;
-}
-
-.Footer-About-Us-Section img{
-    height: 250px;
-    width: 250px;
-    margin: 0px 0px -50px 8%;
-}
-
-.site-footer h3 {
-    text-align: center;
-    color: #fff;
-    margin: 10px;
-} */
-
-
 footer{
     width: 100%;
     bottom: 0;
@@ -471,7 +418,6 @@ ul li a{
 ul li{
     list-style: none;
 }
-
 
 @media screen and (max-width: 900px){
     .horizontal-nav{
@@ -538,18 +484,19 @@ ul li{
         width: 100%;
         margin-top: -50px;
 
-    }
+}
+    /* }
     @media screen and (max-width: 500px){
 .logo img{
     margin: 0;
     width: 210px;
-}
+} */
 
 }
 @media screen and (max-width: 500px){
-.logo img{
-    margin: 0;
-    width: 210px;
-}
 
+    .logo img{
+        margin: 0;
+        width: 210px;
+    }
 }
